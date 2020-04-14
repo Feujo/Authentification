@@ -13,14 +13,14 @@ git clone https://github.com/Feujo/Authentification.git
 cd Authentification
 ## Installation des dependences de composer
 composer install
-## Execution des migtaions (Ne pas oublié de créer son fichier .env)
+## Execution des migrations (Ne pas oublié de créer son fichier .env)
 php artisan migrate
 ## Installations de passport
 php artisan passport:install
 ## installation des dependences de reactjs
 npm install
 ## lancement de l'application
-php artisan serve
-npm run watch
-http://127.0.0.1:8000
+#### php artisan serve 
+#### npm run watch
+#### http://127.0.0.1:8000
 
